@@ -344,5 +344,5 @@ The source code is licensed under Apache 2.0.
 
 ## Auto-Generated Changelog
 
-* Automated update detected changes in: .github/automation/knowledge_graph.json, .github/scripts/ai_doc_agent.py, .github/scripts/diagram_generator.py, .github/scripts/repo_analyzer.py, .github/workflows/self-maintaining-repo.yml and 2 other files.
+* Automated update detected changes in: .github/automation/knowledge_graph.json, README.md, docs/architecture/architecture.md
 
