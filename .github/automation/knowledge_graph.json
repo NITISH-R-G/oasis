@@ -1,107 +1,107 @@
 {
   "files": [
     "deploy.py",
-    "licenses/update_license.py",
-    "visualization/reddit_simulation_align_with_human/code/analysis_all.py",
-    "visualization/reddit_simulation_align_with_human/code/analysis_score.py",
-    "visualization/reddit_simulation_align_with_human/code/__init__.py",
-    "visualization/reddit_simulation_counterfactual/code/analysis_couterfact.py",
-    "visualization/twitter_simulation/align_with_real_world/code/graph.py",
-    "visualization/twitter_simulation/align_with_real_world/code/graph_utils.py",
-    "visualization/twitter_simulation/align_with_real_world/code/result_ana_mean.py",
-    "visualization/twitter_simulation/align_with_real_world/code/result_ana_mse.py",
-    "visualization/twitter_simulation/group_polarization/group_polarization_eval.py",
-    "visualization/dynamic_follow_network/code/vis_neo4j_reddit.py",
-    "visualization/dynamic_follow_network/code/vis_neo4j_twitter.py",
-    "examples/sympy_tools_simulation.py",
-    "examples/twitter_simulation_vllm.py",
-    "examples/group_chat_simulation_oai.py",
-    "examples/twitter_misinforeport.py",
-    "examples/twitter_interview.py",
-    "examples/reddit_simulation_openai.py",
-    "examples/custom_prompt_simulation.py",
-    "examples/__init__.py",
-    "examples/search_tools_simulation.py",
-    "examples/group_chat_simulation.py",
-    "examples/different_model_simulation.py",
-    "examples/quick_start.py",
-    "examples/twitter_simulation_openai.py",
-    "examples/custom_platform_simulation.py",
-    "examples/experiment/utils.py",
-    "examples/experiment/__init__.py",
-    "examples/experiment/twitter_gpt_example/twitter_simulation.py",
-    "examples/experiment/reddit_gpt_example/reddit_simulation_gpt.py",
-    "examples/experiment/twitter_simulation_1M_agents/twitter_simulation_1m.py",
-    "examples/experiment/twitter_gpt_example_openai_embedding/twitter_simulation.py",
-    "examples/experiment/reddit_simulation_align_with_human/reddit_simulation_align_with_human.py",
-    "examples/experiment/reddit_simulation_align_with_human/__init__.py",
-    "examples/experiment/reddit_emall_demo/emall_simulation.py",
-    "examples/experiment/reddit_simulation_counterfactual/reddit_simulation_counterfactual.py",
-    "examples/experiment/twitter_simulation/align_with_real_world/twitter_simulation_large.py",
-    "examples/experiment/twitter_simulation/group_polarization/twitter_simulation_group_polar.py",
     "oasis/__init__.py",
-    "oasis/social_agent/agent_action.py",
-    "oasis/social_agent/__init__.py",
-    "oasis/social_agent/agent_graph.py",
-    "oasis/social_agent/agent_environment.py",
     "oasis/social_agent/agent.py",
+    "oasis/social_agent/__init__.py",
+    "oasis/social_agent/agent_action.py",
+    "oasis/social_agent/agent_graph.py",
     "oasis/social_agent/agents_generator.py",
-    "oasis/environment/env.py",
-    "oasis/environment/__init__.py",
-    "oasis/environment/make.py",
-    "oasis/environment/env_action.py",
-    "oasis/social_platform/typing.py",
-    "oasis/social_platform/platform.py",
-    "oasis/social_platform/process_recsys_posts.py",
-    "oasis/social_platform/platform_utils.py",
+    "oasis/social_agent/agent_environment.py",
     "oasis/social_platform/__init__.py",
+    "oasis/social_platform/platform.py",
     "oasis/social_platform/recsys.py",
-    "oasis/social_platform/database.py",
     "oasis/social_platform/channel.py",
+    "oasis/social_platform/process_recsys_posts.py",
+    "oasis/social_platform/typing.py",
+    "oasis/social_platform/database.py",
+    "oasis/social_platform/platform_utils.py",
     "oasis/social_platform/config/neo4j.py",
     "oasis/social_platform/config/__init__.py",
     "oasis/social_platform/config/user.py",
+    "oasis/environment/__init__.py",
+    "oasis/environment/make.py",
+    "oasis/environment/env_action.py",
+    "oasis/environment/env.py",
     "oasis/testing/__init__.py",
     "oasis/testing/show_db.py",
-    "oasis/clock/clock.py",
     "oasis/clock/__init__.py",
-    "generator/reddit/user_generate.py",
-    "generator/twitter/network.py",
-    "generator/twitter/rag.py",
-    "generator/twitter/__init__.py",
-    "generator/twitter/gen.py",
-    "generator/twitter/ba.py",
+    "oasis/clock/clock.py",
+    "licenses/update_license.py",
     "test/conftest.py",
-    "test/infra/recsys/test_update_rec_table.py",
-    "test/infra/recsys/test_recsys.py",
+    "test/agent/test_multi_agent_signup_create.py",
+    "test/agent/test_agent_graph.py",
+    "test/agent/test_agent_custom_prompt.py",
+    "test/agent/test_agent_generator.py",
+    "test/agent/test_twitter_user_agent_all_actions.py",
+    "test/agent/test_action_docstring.py",
+    "test/agent/test_interview_action.py",
+    "test/agent/test_agent_tools.py",
     "test/infra/recsys/test_update_rec_table_reddit.py",
+    "test/infra/recsys/test_recsys.py",
+    "test/infra/recsys/test_update_rec_table.py",
+    "test/infra/database/test_user.py",
+    "test/infra/database/test_report_post.py",
+    "test/infra/database/test_trend.py",
+    "test/infra/database/test_post.py",
+    "test/infra/database/test_multi_user_signup.py",
+    "test/infra/database/test_do_nothing.py",
+    "test/infra/database/test_group_chat.py",
+    "test/infra/database/test_refresh_score.py",
     "test/infra/database/test_refresh.py",
+    "test/infra/database/test_product.py",
+    "test/infra/database/test_create_fetch_database.py",
+    "test/infra/database/test_post_self_rating.py",
+    "test/infra/database/test_user_create_post.py",
+    "test/infra/database/test_comment_self_rating.py",
+    "test/infra/database/test_search.py",
+    "test/infra/database/test_comment.py",
     "test/infra/database/test_multi_create_post.py",
     "test/infra/database/test_user_signup.py",
-    "test/infra/database/test_create_fetch_database.py",
-    "test/infra/database/test_do_nothing.py",
-    "test/infra/database/test_multi_user_signup.py",
-    "test/infra/database/test_comment_self_rating.py",
-    "test/infra/database/test_trend.py",
-    "test/infra/database/test_group_chat.py",
-    "test/infra/database/test_search.py",
-    "test/infra/database/test_user_create_post.py",
-    "test/infra/database/test_product.py",
-    "test/infra/database/test_user.py",
-    "test/infra/database/test_refresh_score.py",
     "test/infra/database/test_quote_repost_refresh.py",
-    "test/infra/database/test_post.py",
-    "test/infra/database/test_post_self_rating.py",
-    "test/infra/database/test_report_post.py",
-    "test/infra/database/test_comment.py",
-    "test/agent/test_twitter_user_agent_all_actions.py",
-    "test/agent/test_agent_generator.py",
-    "test/agent/test_interview_action.py",
-    "test/agent/test_action_docstring.py",
-    "test/agent/test_multi_agent_signup_create.py",
-    "test/agent/test_agent_tools.py",
-    "test/agent/test_agent_custom_prompt.py",
-    "test/agent/test_agent_graph.py"
+    "visualization/reddit_simulation_counterfactual/code/analysis_couterfact.py",
+    "visualization/dynamic_follow_network/code/vis_neo4j_twitter.py",
+    "visualization/dynamic_follow_network/code/vis_neo4j_reddit.py",
+    "visualization/twitter_simulation/group_polarization/group_polarization_eval.py",
+    "visualization/twitter_simulation/align_with_real_world/code/result_ana_mean.py",
+    "visualization/twitter_simulation/align_with_real_world/code/graph.py",
+    "visualization/twitter_simulation/align_with_real_world/code/result_ana_mse.py",
+    "visualization/twitter_simulation/align_with_real_world/code/graph_utils.py",
+    "visualization/reddit_simulation_align_with_human/code/analysis_all.py",
+    "visualization/reddit_simulation_align_with_human/code/__init__.py",
+    "visualization/reddit_simulation_align_with_human/code/analysis_score.py",
+    "generator/twitter/gen.py",
+    "generator/twitter/rag.py",
+    "generator/twitter/network.py",
+    "generator/twitter/ba.py",
+    "generator/twitter/__init__.py",
+    "generator/reddit/user_generate.py",
+    "examples/__init__.py",
+    "examples/group_chat_simulation_oai.py",
+    "examples/group_chat_simulation.py",
+    "examples/twitter_simulation_vllm.py",
+    "examples/twitter_simulation_openai.py",
+    "examples/custom_prompt_simulation.py",
+    "examples/twitter_misinforeport.py",
+    "examples/search_tools_simulation.py",
+    "examples/different_model_simulation.py",
+    "examples/custom_platform_simulation.py",
+    "examples/sympy_tools_simulation.py",
+    "examples/quick_start.py",
+    "examples/reddit_simulation_openai.py",
+    "examples/twitter_interview.py",
+    "examples/experiment/__init__.py",
+    "examples/experiment/utils.py",
+    "examples/experiment/twitter_simulation_1M_agents/twitter_simulation_1m.py",
+    "examples/experiment/reddit_simulation_counterfactual/reddit_simulation_counterfactual.py",
+    "examples/experiment/twitter_gpt_example/twitter_simulation.py",
+    "examples/experiment/reddit_gpt_example/reddit_simulation_gpt.py",
+    "examples/experiment/twitter_simulation/group_polarization/twitter_simulation_group_polar.py",
+    "examples/experiment/twitter_simulation/align_with_real_world/twitter_simulation_large.py",
+    "examples/experiment/reddit_simulation_align_with_human/__init__.py",
+    "examples/experiment/reddit_simulation_align_with_human/reddit_simulation_align_with_human.py",
+    "examples/experiment/twitter_gpt_example_openai_embedding/twitter_simulation.py",
+    "examples/experiment/reddit_emall_demo/emall_simulation.py"
   ],
   "dependencies": {},
   "internal_imports": {
@@ -111,6 +111,198 @@
       "time",
       "requests"
     ],
+    "oasis/__init__.py": [
+      "oasis.environment.env_action",
+      "oasis.environment.make",
+      "oasis.social_agent",
+      "oasis.social_agent.agent",
+      "oasis.social_agent.agent_graph",
+      "oasis.social_platform.config",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing",
+      "oasis.testing.show_db"
+    ],
+    "oasis/social_agent/agent.py": [
+      "__future__",
+      "inspect",
+      "logging",
+      "sys",
+      "datetime",
+      "typing",
+      "camel.agents",
+      "camel.messages",
+      "camel.models",
+      "camel.prompts",
+      "camel.toolkits",
+      "camel.types",
+      "oasis.social_agent.agent_action",
+      "oasis.social_agent.agent_environment",
+      "oasis.social_platform",
+      "oasis.social_platform.config",
+      "oasis.social_platform.typing",
+      "oasis.social_agent"
+    ],
+    "oasis/social_agent/__init__.py": [
+      "agent",
+      "agent_graph",
+      "agents_generator"
+    ],
+    "oasis/social_agent/agent_action.py": [
+      "typing",
+      "camel.toolkits",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.typing"
+    ],
+    "oasis/social_agent/agent_graph.py": [
+      "__future__",
+      "typing",
+      "igraph",
+      "neo4j",
+      "oasis.social_agent.agent",
+      "oasis.social_platform.config"
+    ],
+    "oasis/social_agent/agents_generator.py": [
+      "__future__",
+      "ast",
+      "asyncio",
+      "json",
+      "typing",
+      "pandas",
+      "tqdm",
+      "camel.memories",
+      "camel.messages",
+      "camel.models",
+      "camel.types",
+      "oasis.social_agent",
+      "oasis.social_platform",
+      "oasis.social_platform.config",
+      "oasis.social_platform.typing"
+    ],
+    "oasis/social_agent/agent_environment.py": [
+      "__future__",
+      "json",
+      "sqlite3",
+      "abc",
+      "string",
+      "oasis.social_agent.agent_action",
+      "oasis.social_platform.database"
+    ],
+    "oasis/social_platform/__init__.py": [
+      "channel",
+      "platform"
+    ],
+    "oasis/social_platform/platform.py": [
+      "__future__",
+      "asyncio",
+      "logging",
+      "os",
+      "random",
+      "sqlite3",
+      "sys",
+      "datetime",
+      "typing",
+      "oasis.clock.clock",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.database",
+      "oasis.social_platform.platform_utils",
+      "oasis.social_platform.recsys",
+      "oasis.social_platform.typing"
+    ],
+    "oasis/social_platform/recsys.py": [
+      "heapq",
+      "logging",
+      "random",
+      "time",
+      "ast",
+      "datetime",
+      "math",
+      "typing",
+      "numpy",
+      "torch",
+      "sentence_transformers",
+      "sklearn.feature_extraction.text",
+      "sklearn.metrics.pairwise",
+      "process_recsys_posts",
+      "typing",
+      "transformers",
+      "transformers",
+      "pdb",
+      "pdb"
+    ],
+    "oasis/social_platform/channel.py": [
+      "asyncio",
+      "uuid"
+    ],
+    "oasis/social_platform/process_recsys_posts.py": [
+      "typing",
+      "torch",
+      "camel.embeddings",
+      "camel.types",
+      "transformers"
+    ],
+    "oasis/social_platform/typing.py": [
+      "enum"
+    ],
+    "oasis/social_platform/database.py": [
+      "__future__",
+      "os",
+      "os.path",
+      "sqlite3",
+      "typing"
+    ],
+    "oasis/social_platform/platform_utils.py": [
+      "json",
+      "datetime",
+      "oasis.social_platform.typing"
+    ],
+    "oasis/social_platform/config/neo4j.py": [
+      "dataclasses"
+    ],
+    "oasis/social_platform/config/__init__.py": [
+      "neo4j",
+      "user"
+    ],
+    "oasis/social_platform/config/user.py": [
+      "warnings",
+      "dataclasses",
+      "typing",
+      "camel.prompts"
+    ],
+    "oasis/environment/__init__.py": [],
+    "oasis/environment/make.py": [
+      "oasis.environment.env"
+    ],
+    "oasis/environment/env_action.py": [
+      "dataclasses",
+      "typing",
+      "oasis.social_platform.typing"
+    ],
+    "oasis/environment/env.py": [
+      "asyncio",
+      "logging",
+      "os",
+      "datetime",
+      "typing",
+      "oasis.environment.env_action",
+      "oasis.social_agent.agent",
+      "oasis.social_agent.agent_graph",
+      "oasis.social_agent.agents_generator",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "oasis/testing/__init__.py": [],
+    "oasis/testing/show_db.py": [
+      "logging",
+      "sqlite3",
+      "datetime"
+    ],
+    "oasis/clock/__init__.py": [
+      "clock"
+    ],
+    "oasis/clock/clock.py": [
+      "datetime"
+    ],
     "licenses/update_license.py": [
       "os",
       "re",
@@ -118,17 +310,271 @@
       "pathlib",
       "typing"
     ],
-    "visualization/reddit_simulation_align_with_human/code/analysis_all.py": [
-      "analysis_score"
+    "test/conftest.py": [
+      "os",
+      "sys"
     ],
-    "visualization/reddit_simulation_align_with_human/code/analysis_score.py": [
-      "json",
+    "test/agent/test_multi_agent_signup_create.py": [
+      "asyncio",
+      "os",
+      "os.path",
+      "random",
       "sqlite3",
-      "matplotlib.pyplot",
-      "numpy",
-      "scipy"
+      "pytest",
+      "oasis.social_agent.agent",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.config",
+      "oasis.social_platform.platform",
+      "oasis.testing.show_db"
     ],
-    "visualization/reddit_simulation_align_with_human/code/__init__.py": [],
+    "test/agent/test_agent_graph.py": [
+      "os",
+      "os.path",
+      "pytest",
+      "oasis.social_agent.agent",
+      "oasis.social_agent.agent_graph",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.config"
+    ],
+    "test/agent/test_agent_custom_prompt.py": [
+      "asyncio",
+      "os",
+      "os.path",
+      "warnings",
+      "pytest",
+      "camel.prompts",
+      "oasis.social_agent.agent",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.config",
+      "oasis.social_platform.platform"
+    ],
+    "test/agent/test_agent_generator.py": [
+      "asyncio",
+      "os",
+      "os.path",
+      "pytest",
+      "camel.models",
+      "camel.types",
+      "oasis.social_agent.agents_generator",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.platform"
+    ],
+    "test/agent/test_twitter_user_agent_all_actions.py": [
+      "asyncio",
+      "os",
+      "os.path",
+      "random",
+      "pytest",
+      "oasis.social_agent.agent",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.config",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "test/agent/test_action_docstring.py": [
+      "typing",
+      "camel.toolkits",
+      "oasis.social_agent.agent"
+    ],
+    "test/agent/test_interview_action.py": [
+      "asyncio",
+      "json",
+      "os",
+      "os.path",
+      "sqlite3",
+      "tempfile",
+      "pytest",
+      "camel.models",
+      "camel.types",
+      "oasis",
+      "oasis",
+      "oasis.social_agent.agent",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.config",
+      "oasis.social_platform.platform"
+    ],
+    "test/agent/test_agent_tools.py": [
+      "asyncio",
+      "os",
+      "os.path",
+      "pytest",
+      "camel.toolkits",
+      "oasis",
+      "oasis.social_agent.agent",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.config",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/recsys/test_update_rec_table_reddit.py": [
+      "asyncio",
+      "os",
+      "os.path",
+      "sqlite3",
+      "datetime",
+      "pytest",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "test/infra/recsys/test_recsys.py": [
+      "oasis.social_platform.recsys"
+    ],
+    "test/infra/recsys/test_update_rec_table.py": [
+      "asyncio",
+      "os",
+      "os.path",
+      "random",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.recsys",
+      "oasis.social_platform.typing",
+      "oasis.testing.show_db"
+    ],
+    "test/infra/database/test_user.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_report_post.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_trend.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "datetime",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_post.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_multi_user_signup.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "datetime",
+      "oasis.social_platform.database"
+    ],
+    "test/infra/database/test_do_nothing.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "test/infra/database/test_group_chat.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_refresh_score.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "datetime",
+      "pytest",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "test/infra/database/test_refresh.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "datetime",
+      "pytest",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "test/infra/database/test_product.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "test/infra/database/test_create_fetch_database.py": [
+      "datetime",
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.database"
+    ],
+    "test/infra/database/test_post_self_rating.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_user_create_post.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_comment_self_rating.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_search.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_comment.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_multi_create_post.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform",
+      "oasis.testing.show_db"
+    ],
+    "test/infra/database/test_user_signup.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform"
+    ],
+    "test/infra/database/test_quote_repost_refresh.py": [
+      "os",
+      "os.path",
+      "sqlite3",
+      "pytest",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
     "visualization/reddit_simulation_counterfactual/code/analysis_couterfact.py": [
       "asyncio",
       "json",
@@ -140,20 +586,25 @@
       "openai",
       "scipy.stats"
     ],
-    "visualization/twitter_simulation/align_with_real_world/code/graph.py": [
+    "visualization/dynamic_follow_network/code/vis_neo4j_twitter.py": [
+      "os",
       "sqlite3",
-      "matplotlib.pyplot",
-      "networkx",
-      "pandas",
-      "graph_utils",
-      "pdb",
-      "pdb",
-      "pdb",
-      "pdb"
+      "datetime",
+      "neo4j"
     ],
-    "visualization/twitter_simulation/align_with_real_world/code/graph_utils.py": [
-      "matplotlib.pyplot",
-      "networkx"
+    "visualization/dynamic_follow_network/code/vis_neo4j_reddit.py": [
+      "json",
+      "os",
+      "sqlite3",
+      "datetime",
+      "neo4j"
+    ],
+    "visualization/twitter_simulation/group_polarization/group_polarization_eval.py": [
+      "json",
+      "logging",
+      "pandas",
+      "requests",
+      "tqdm"
     ],
     "visualization/twitter_simulation/align_with_real_world/code/result_ana_mean.py": [
       "os",
@@ -165,6 +616,17 @@
       "pandas",
       "graph",
       "tqdm"
+    ],
+    "visualization/twitter_simulation/align_with_real_world/code/graph.py": [
+      "sqlite3",
+      "matplotlib.pyplot",
+      "networkx",
+      "pandas",
+      "graph_utils",
+      "pdb",
+      "pdb",
+      "pdb",
+      "pdb"
     ],
     "visualization/twitter_simulation/align_with_real_world/code/result_ana_mse.py": [
       "os",
@@ -178,31 +640,73 @@
       "graph",
       "tqdm"
     ],
-    "visualization/twitter_simulation/group_polarization/group_polarization_eval.py": [
+    "visualization/twitter_simulation/align_with_real_world/code/graph_utils.py": [
+      "matplotlib.pyplot",
+      "networkx"
+    ],
+    "visualization/reddit_simulation_align_with_human/code/analysis_all.py": [
+      "analysis_score"
+    ],
+    "visualization/reddit_simulation_align_with_human/code/__init__.py": [],
+    "visualization/reddit_simulation_align_with_human/code/analysis_score.py": [
       "json",
-      "logging",
+      "sqlite3",
+      "matplotlib.pyplot",
+      "numpy",
+      "scipy"
+    ],
+    "generator/twitter/gen.py": [
+      "itertools",
+      "json",
+      "random",
+      "time",
+      "concurrent.futures",
+      "numpy",
+      "rag"
+    ],
+    "generator/twitter/rag.py": [
+      "os",
+      "langchain",
+      "langchain_chroma",
+      "langchain_community.document_loaders.csv_loader",
+      "langchain_community.embeddings",
+      "langchain_core.output_parsers",
+      "langchain_core.runnables",
+      "langchain_openai",
+      "langchain_text_splitters",
+      "pydantic"
+    ],
+    "generator/twitter/network.py": [
+      "json",
+      "random",
       "pandas",
-      "requests",
       "tqdm"
     ],
-    "visualization/dynamic_follow_network/code/vis_neo4j_reddit.py": [
+    "generator/twitter/ba.py": [
+      "random",
+      "pandas"
+    ],
+    "generator/twitter/__init__.py": [],
+    "generator/reddit/user_generate.py": [
       "json",
-      "os",
-      "sqlite3",
+      "random",
+      "concurrent.futures",
       "datetime",
-      "neo4j"
+      "openai"
     ],
-    "visualization/dynamic_follow_network/code/vis_neo4j_twitter.py": [
-      "os",
-      "sqlite3",
-      "datetime",
-      "neo4j"
-    ],
-    "examples/sympy_tools_simulation.py": [
+    "examples/__init__.py": [],
+    "examples/group_chat_simulation_oai.py": [
       "asyncio",
       "os",
       "camel.models",
-      "camel.toolkits",
+      "camel.types",
+      "oasis",
+      "oasis"
+    ],
+    "examples/group_chat_simulation.py": [
+      "asyncio",
+      "os",
+      "camel.models",
       "camel.types",
       "oasis",
       "oasis"
@@ -215,35 +719,7 @@
       "oasis",
       "oasis"
     ],
-    "examples/group_chat_simulation_oai.py": [
-      "asyncio",
-      "os",
-      "camel.models",
-      "camel.types",
-      "oasis",
-      "oasis"
-    ],
-    "examples/twitter_misinforeport.py": [
-      "asyncio",
-      "json",
-      "os",
-      "sqlite3",
-      "camel.models",
-      "camel.types",
-      "oasis",
-      "oasis"
-    ],
-    "examples/twitter_interview.py": [
-      "asyncio",
-      "json",
-      "os",
-      "sqlite3",
-      "camel.models",
-      "camel.types",
-      "oasis",
-      "oasis"
-    ],
-    "examples/reddit_simulation_openai.py": [
+    "examples/twitter_simulation_openai.py": [
       "asyncio",
       "os",
       "camel.models",
@@ -260,7 +736,16 @@
       "oasis",
       "oasis"
     ],
-    "examples/__init__.py": [],
+    "examples/twitter_misinforeport.py": [
+      "asyncio",
+      "json",
+      "os",
+      "sqlite3",
+      "camel.models",
+      "camel.types",
+      "oasis",
+      "oasis"
+    ],
     "examples/search_tools_simulation.py": [
       "asyncio",
       "os",
@@ -270,31 +755,7 @@
       "oasis",
       "oasis"
     ],
-    "examples/group_chat_simulation.py": [
-      "asyncio",
-      "os",
-      "camel.models",
-      "camel.types",
-      "oasis",
-      "oasis"
-    ],
     "examples/different_model_simulation.py": [
-      "asyncio",
-      "os",
-      "camel.models",
-      "camel.types",
-      "oasis",
-      "oasis"
-    ],
-    "examples/quick_start.py": [
-      "asyncio",
-      "os",
-      "camel.models",
-      "camel.types",
-      "oasis",
-      "oasis"
-    ],
-    "examples/twitter_simulation_openai.py": [
       "asyncio",
       "os",
       "camel.models",
@@ -312,8 +773,87 @@
       "oasis.social_platform.channel",
       "oasis.social_platform.typing"
     ],
-    "examples/experiment/utils.py": [],
+    "examples/sympy_tools_simulation.py": [
+      "asyncio",
+      "os",
+      "camel.models",
+      "camel.toolkits",
+      "camel.types",
+      "oasis",
+      "oasis"
+    ],
+    "examples/quick_start.py": [
+      "asyncio",
+      "os",
+      "camel.models",
+      "camel.types",
+      "oasis",
+      "oasis"
+    ],
+    "examples/reddit_simulation_openai.py": [
+      "asyncio",
+      "os",
+      "camel.models",
+      "camel.types",
+      "oasis",
+      "oasis"
+    ],
+    "examples/twitter_interview.py": [
+      "asyncio",
+      "json",
+      "os",
+      "sqlite3",
+      "camel.models",
+      "camel.types",
+      "oasis",
+      "oasis"
+    ],
     "examples/experiment/__init__.py": [],
+    "examples/experiment/utils.py": [],
+    "examples/experiment/twitter_simulation_1M_agents/twitter_simulation_1m.py": [
+      "__future__",
+      "argparse",
+      "asyncio",
+      "logging",
+      "os",
+      "random",
+      "sys",
+      "datetime",
+      "typing",
+      "pandas",
+      "camel.models",
+      "camel.types",
+      "colorama",
+      "yaml",
+      "utils",
+      "oasis.clock.clock",
+      "oasis.social_agent.agents_generator",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
+    "examples/experiment/reddit_simulation_counterfactual/reddit_simulation_counterfactual.py": [
+      "__future__",
+      "argparse",
+      "asyncio",
+      "json",
+      "logging",
+      "os",
+      "random",
+      "sys",
+      "datetime",
+      "typing",
+      "camel.models",
+      "camel.types",
+      "colorama",
+      "yaml",
+      "utils",
+      "oasis.clock.clock",
+      "oasis.social_agent.agents_generator",
+      "oasis.social_platform.channel",
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
+    ],
     "examples/experiment/twitter_gpt_example/twitter_simulation.py": [
       "__future__",
       "argparse",
@@ -357,7 +897,7 @@
       "oasis.social_platform.platform",
       "oasis.social_platform.typing"
     ],
-    "examples/experiment/twitter_simulation_1M_agents/twitter_simulation_1m.py": [
+    "examples/experiment/twitter_simulation/group_polarization/twitter_simulation_group_polar.py": [
       "__future__",
       "argparse",
       "asyncio",
@@ -368,93 +908,6 @@
       "datetime",
       "typing",
       "pandas",
-      "camel.models",
-      "camel.types",
-      "colorama",
-      "yaml",
-      "utils",
-      "oasis.clock.clock",
-      "oasis.social_agent.agents_generator",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "examples/experiment/twitter_gpt_example_openai_embedding/twitter_simulation.py": [
-      "__future__",
-      "argparse",
-      "asyncio",
-      "logging",
-      "os",
-      "random",
-      "sys",
-      "datetime",
-      "pathlib",
-      "typing",
-      "pandas",
-      "colorama",
-      "yaml",
-      "camel.models",
-      "camel.types",
-      "oasis.clock.clock",
-      "oasis.social_agent.agents_generator",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "examples/experiment/reddit_simulation_align_with_human/reddit_simulation_align_with_human.py": [
-      "__future__",
-      "argparse",
-      "asyncio",
-      "json",
-      "logging",
-      "os",
-      "random",
-      "sys",
-      "datetime",
-      "typing",
-      "camel.models",
-      "camel.types",
-      "yaml",
-      "utils",
-      "oasis.clock.clock",
-      "oasis.social_agent.agents_generator",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "examples/experiment/reddit_simulation_align_with_human/__init__.py": [],
-    "examples/experiment/reddit_emall_demo/emall_simulation.py": [
-      "__future__",
-      "argparse",
-      "asyncio",
-      "json",
-      "logging",
-      "os",
-      "random",
-      "sys",
-      "datetime",
-      "typing",
-      "colorama",
-      "yaml",
-      "camel.models",
-      "camel.types",
-      "oasis.clock.clock",
-      "oasis.social_agent.agents_generator",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "examples/experiment/reddit_simulation_counterfactual/reddit_simulation_counterfactual.py": [
-      "__future__",
-      "argparse",
-      "asyncio",
-      "json",
-      "logging",
-      "os",
-      "random",
-      "sys",
-      "datetime",
-      "typing",
       "camel.models",
       "camel.types",
       "colorama",
@@ -489,20 +942,20 @@
       "oasis.social_platform.platform",
       "oasis.social_platform.typing"
     ],
-    "examples/experiment/twitter_simulation/group_polarization/twitter_simulation_group_polar.py": [
+    "examples/experiment/reddit_simulation_align_with_human/__init__.py": [],
+    "examples/experiment/reddit_simulation_align_with_human/reddit_simulation_align_with_human.py": [
       "__future__",
       "argparse",
       "asyncio",
+      "json",
       "logging",
       "os",
       "random",
       "sys",
       "datetime",
       "typing",
-      "pandas",
       "camel.models",
       "camel.types",
-      "colorama",
       "yaml",
       "utils",
       "oasis.clock.clock",
@@ -511,575 +964,122 @@
       "oasis.social_platform.platform",
       "oasis.social_platform.typing"
     ],
-    "oasis/__init__.py": [
-      "oasis.environment.env_action",
-      "oasis.environment.make",
-      "oasis.social_agent",
-      "oasis.social_agent.agent",
-      "oasis.social_agent.agent_graph",
-      "oasis.social_platform.config",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing",
-      "oasis.testing.show_db"
-    ],
-    "oasis/social_agent/agent_action.py": [
-      "typing",
-      "camel.toolkits",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.typing"
-    ],
-    "oasis/social_agent/__init__.py": [
-      "agent",
-      "agent_graph",
-      "agents_generator"
-    ],
-    "oasis/social_agent/agent_graph.py": [
+    "examples/experiment/twitter_gpt_example_openai_embedding/twitter_simulation.py": [
       "__future__",
-      "typing",
-      "igraph",
-      "neo4j",
-      "oasis.social_agent.agent",
-      "oasis.social_platform.config"
-    ],
-    "oasis/social_agent/agent_environment.py": [
-      "__future__",
-      "json",
-      "sqlite3",
-      "abc",
-      "string",
-      "oasis.social_agent.agent_action",
-      "oasis.social_platform.database"
-    ],
-    "oasis/social_agent/agent.py": [
-      "__future__",
-      "inspect",
-      "logging",
-      "sys",
-      "datetime",
-      "typing",
-      "camel.agents",
-      "camel.messages",
-      "camel.models",
-      "camel.prompts",
-      "camel.toolkits",
-      "camel.types",
-      "oasis.social_agent.agent_action",
-      "oasis.social_agent.agent_environment",
-      "oasis.social_platform",
-      "oasis.social_platform.config",
-      "oasis.social_platform.typing",
-      "oasis.social_agent"
-    ],
-    "oasis/social_agent/agents_generator.py": [
-      "__future__",
-      "ast",
-      "asyncio",
-      "json",
-      "typing",
-      "pandas",
-      "tqdm",
-      "camel.memories",
-      "camel.messages",
-      "camel.models",
-      "camel.types",
-      "oasis.social_agent",
-      "oasis.social_platform",
-      "oasis.social_platform.config",
-      "oasis.social_platform.typing"
-    ],
-    "oasis/environment/env.py": [
-      "asyncio",
-      "logging",
-      "os",
-      "datetime",
-      "typing",
-      "oasis.environment.env_action",
-      "oasis.social_agent.agent",
-      "oasis.social_agent.agent_graph",
-      "oasis.social_agent.agents_generator",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "oasis/environment/__init__.py": [],
-    "oasis/environment/make.py": [
-      "oasis.environment.env"
-    ],
-    "oasis/environment/env_action.py": [
-      "dataclasses",
-      "typing",
-      "oasis.social_platform.typing"
-    ],
-    "oasis/social_platform/typing.py": [
-      "enum"
-    ],
-    "oasis/social_platform/platform.py": [
-      "__future__",
+      "argparse",
       "asyncio",
       "logging",
       "os",
       "random",
-      "sqlite3",
       "sys",
       "datetime",
+      "pathlib",
       "typing",
+      "pandas",
+      "colorama",
+      "yaml",
+      "camel.models",
+      "camel.types",
       "oasis.clock.clock",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.database",
-      "oasis.social_platform.platform_utils",
-      "oasis.social_platform.recsys",
-      "oasis.social_platform.typing"
-    ],
-    "oasis/social_platform/process_recsys_posts.py": [
-      "typing",
-      "torch",
-      "camel.embeddings",
-      "camel.types",
-      "transformers"
-    ],
-    "oasis/social_platform/platform_utils.py": [
-      "json",
-      "datetime",
-      "oasis.social_platform.typing"
-    ],
-    "oasis/social_platform/__init__.py": [
-      "channel",
-      "platform"
-    ],
-    "oasis/social_platform/recsys.py": [
-      "heapq",
-      "logging",
-      "random",
-      "time",
-      "ast",
-      "datetime",
-      "math",
-      "typing",
-      "numpy",
-      "torch",
-      "sentence_transformers",
-      "sklearn.feature_extraction.text",
-      "sklearn.metrics.pairwise",
-      "process_recsys_posts",
-      "typing",
-      "transformers",
-      "transformers",
-      "pdb",
-      "pdb"
-    ],
-    "oasis/social_platform/database.py": [
-      "__future__",
-      "os",
-      "os.path",
-      "sqlite3",
-      "typing"
-    ],
-    "oasis/social_platform/channel.py": [
-      "asyncio",
-      "uuid"
-    ],
-    "oasis/social_platform/config/neo4j.py": [
-      "dataclasses"
-    ],
-    "oasis/social_platform/config/__init__.py": [
-      "neo4j",
-      "user"
-    ],
-    "oasis/social_platform/config/user.py": [
-      "warnings",
-      "dataclasses",
-      "typing",
-      "camel.prompts"
-    ],
-    "oasis/testing/__init__.py": [],
-    "oasis/testing/show_db.py": [
-      "logging",
-      "sqlite3",
-      "datetime"
-    ],
-    "oasis/clock/clock.py": [
-      "datetime"
-    ],
-    "oasis/clock/__init__.py": [
-      "clock"
-    ],
-    "generator/reddit/user_generate.py": [
-      "json",
-      "random",
-      "concurrent.futures",
-      "datetime",
-      "openai"
-    ],
-    "generator/twitter/network.py": [
-      "json",
-      "random",
-      "pandas",
-      "tqdm"
-    ],
-    "generator/twitter/rag.py": [
-      "os",
-      "langchain",
-      "langchain_chroma",
-      "langchain_community.document_loaders.csv_loader",
-      "langchain_community.embeddings",
-      "langchain_core.output_parsers",
-      "langchain_core.runnables",
-      "langchain_openai",
-      "langchain_text_splitters",
-      "pydantic"
-    ],
-    "generator/twitter/__init__.py": [],
-    "generator/twitter/gen.py": [
-      "itertools",
-      "json",
-      "random",
-      "time",
-      "concurrent.futures",
-      "numpy",
-      "rag"
-    ],
-    "generator/twitter/ba.py": [
-      "random",
-      "pandas"
-    ],
-    "test/conftest.py": [
-      "os",
-      "sys"
-    ],
-    "test/infra/recsys/test_update_rec_table.py": [
-      "asyncio",
-      "os",
-      "os.path",
-      "random",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.recsys",
-      "oasis.social_platform.typing",
-      "oasis.testing.show_db"
-    ],
-    "test/infra/recsys/test_recsys.py": [
-      "oasis.social_platform.recsys"
-    ],
-    "test/infra/recsys/test_update_rec_table_reddit.py": [
-      "asyncio",
-      "os",
-      "os.path",
-      "sqlite3",
-      "datetime",
-      "pytest",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "test/infra/database/test_refresh.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "datetime",
-      "pytest",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "test/infra/database/test_multi_create_post.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform",
-      "oasis.testing.show_db"
-    ],
-    "test/infra/database/test_user_signup.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_create_fetch_database.py": [
-      "datetime",
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.database"
-    ],
-    "test/infra/database/test_do_nothing.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "test/infra/database/test_multi_user_signup.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "datetime",
-      "oasis.social_platform.database"
-    ],
-    "test/infra/database/test_comment_self_rating.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_trend.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "datetime",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_group_chat.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_search.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_user_create_post.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_product.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "test/infra/database/test_user.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_refresh_score.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "datetime",
-      "pytest",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "test/infra/database/test_quote_repost_refresh.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "test/infra/database/test_post.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_post_self_rating.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_report_post.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/infra/database/test_comment.py": [
-      "os",
-      "os.path",
-      "sqlite3",
-      "pytest",
-      "oasis.social_platform.platform"
-    ],
-    "test/agent/test_twitter_user_agent_all_actions.py": [
-      "asyncio",
-      "os",
-      "os.path",
-      "random",
-      "pytest",
-      "oasis.social_agent.agent",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.config",
-      "oasis.social_platform.platform",
-      "oasis.social_platform.typing"
-    ],
-    "test/agent/test_agent_generator.py": [
-      "asyncio",
-      "os",
-      "os.path",
-      "pytest",
-      "camel.models",
-      "camel.types",
       "oasis.social_agent.agents_generator",
       "oasis.social_platform.channel",
-      "oasis.social_platform.platform"
+      "oasis.social_platform.platform",
+      "oasis.social_platform.typing"
     ],
-    "test/agent/test_interview_action.py": [
+    "examples/experiment/reddit_emall_demo/emall_simulation.py": [
+      "__future__",
+      "argparse",
       "asyncio",
       "json",
+      "logging",
       "os",
-      "os.path",
-      "sqlite3",
-      "tempfile",
-      "pytest",
+      "random",
+      "sys",
+      "datetime",
+      "typing",
+      "colorama",
+      "yaml",
       "camel.models",
       "camel.types",
-      "oasis",
-      "oasis",
-      "oasis.social_agent.agent",
+      "oasis.clock.clock",
+      "oasis.social_agent.agents_generator",
       "oasis.social_platform.channel",
-      "oasis.social_platform.config",
-      "oasis.social_platform.platform"
-    ],
-    "test/agent/test_action_docstring.py": [
-      "typing",
-      "camel.toolkits",
-      "oasis.social_agent.agent"
-    ],
-    "test/agent/test_multi_agent_signup_create.py": [
-      "asyncio",
-      "os",
-      "os.path",
-      "random",
-      "sqlite3",
-      "pytest",
-      "oasis.social_agent.agent",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.config",
       "oasis.social_platform.platform",
-      "oasis.testing.show_db"
-    ],
-    "test/agent/test_agent_tools.py": [
-      "asyncio",
-      "os",
-      "os.path",
-      "pytest",
-      "camel.toolkits",
-      "oasis",
-      "oasis.social_agent.agent",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.config",
-      "oasis.social_platform.platform"
-    ],
-    "test/agent/test_agent_custom_prompt.py": [
-      "asyncio",
-      "os",
-      "os.path",
-      "warnings",
-      "pytest",
-      "camel.prompts",
-      "oasis.social_agent.agent",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.config",
-      "oasis.social_platform.platform"
-    ],
-    "test/agent/test_agent_graph.py": [
-      "os",
-      "os.path",
-      "pytest",
-      "oasis.social_agent.agent",
-      "oasis.social_agent.agent_graph",
-      "oasis.social_platform.channel",
-      "oasis.social_platform.config"
+      "oasis.social_platform.typing"
     ]
   },
   "external_dependencies": [
-    "subprocess",
-    "langchain_chroma",
-    "__future__",
-    "pdb",
-    "pathlib",
-    "aiohttp",
-    "concurrent",
-    "pytest",
-    "string",
-    "itertools",
-    "time",
-    "pickle",
-    "yaml",
-    "inspect",
-    "re",
-    "threading",
-    "user",
-    "pydantic",
-    "process_recsys_posts",
-    "oasis",
-    "dataclasses",
-    "clock",
-    "igraph",
-    "asyncio",
-    "networkx",
-    "typing",
-    "graph_utils",
-    "pandas",
-    "argparse",
-    "abc",
-    "uuid",
-    "tqdm",
-    "warnings",
-    "random",
-    "transformers",
-    "agent_graph",
     "scipy",
-    "langchain",
-    "camel",
-    "openai",
-    "logging",
-    "agent",
-    "matplotlib",
-    "langchain_openai",
-    "os",
-    "agents_generator",
-    "ast",
-    "sys",
-    "math",
-    "sqlite3",
-    "utils",
-    "tempfile",
-    "sklearn",
-    "neo4j",
-    "torch",
-    "enum",
-    "analysis_score",
-    "datetime",
-    "channel",
-    "colorama",
-    "langchain_text_splitters",
-    "rag",
-    "langchain_core",
-    "platform",
-    "sentence_transformers",
-    "langchain_community",
-    "heapq",
-    "graph",
+    "subprocess",
+    "agent_graph",
+    "yaml",
     "json",
+    "os",
+    "tempfile",
+    "abc",
+    "transformers",
+    "__future__",
+    "openai",
+    "sklearn",
+    "datetime",
+    "math",
+    "enum",
+    "aiohttp",
+    "pickle",
+    "uuid",
+    "sys",
+    "pathlib",
+    "itertools",
+    "platform",
+    "argparse",
+    "graph_utils",
+    "langchain_text_splitters",
+    "channel",
+    "utils",
+    "igraph",
+    "camel",
+    "langchain_chroma",
+    "colorama",
+    "concurrent",
+    "user",
+    "oasis",
+    "sentence_transformers",
+    "pdb",
+    "process_recsys_posts",
+    "analysis_score",
+    "langchain_community",
+    "sqlite3",
+    "torch",
+    "warnings",
+    "tqdm",
+    "matplotlib",
+    "networkx",
+    "dataclasses",
     "numpy",
-    "requests"
+    "time",
+    "string",
+    "heapq",
+    "pytest",
+    "langchain_openai",
+    "logging",
+    "langchain",
+    "neo4j",
+    "inspect",
+    "langchain_core",
+    "random",
+    "pandas",
+    "graph",
+    "typing",
+    "agents_generator",
+    "pydantic",
+    "requests",
+    "ast",
+    "threading",
+    "asyncio",
+    "rag",
+    "agent",
+    "re",
+    "clock"
   ],
   "databases": [
     "SQLite"
