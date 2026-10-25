@@ -344,5 +344,5 @@ The source code is licensed under Apache 2.0.
 
 ## Auto-Generated Changelog
 
-* Automated update detected changes in: .github/automation/knowledge_graph.json, README.md, docs/architecture/architecture.md
+* Automated update detected changes in: .github/automation/knowledge_graph.json, docs/architecture/architecture.md
 
